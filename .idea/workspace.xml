@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0674cf29-482c-41b9-91df-e4f4b4e79a85" name="Changes" comment="before certeficates1">
-      <change afterPath="$PROJECT_DIR$/templates/save_sertifcate.txt" afterDir="false" />
+    <list default="true" id="0674cf29-482c-41b9-91df-e4f4b4e79a85" name="Changes" comment="commit error mansour">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_website5/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_website5/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index/index-rtl.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index/index-rtl.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,6 +114,7 @@
       <workItem from="1704963998016" duration="604000" />
       <workItem from="1704993019213" duration="861000" />
       <workItem from="1704996180705" duration="608000" />
+      <workItem from="1705000221873" duration="3155000" />
     </task>
     <task id="LOCAL-00001" summary="before certeficates">
       <option name="closed" value="true" />
@@ -132,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704900364050</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit error mansour">
+      <option name="closed" value="true" />
+      <created>1705000312089</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705000312089</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +149,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="before certeficates" />
     <MESSAGE value="before certeficates1" />
-    <option name="LAST_COMMIT_MESSAGE" value="before certeficates1" />
+    <MESSAGE value="commit error mansour" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit error mansour" />
   </component>
 </project>
