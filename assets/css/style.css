@@ -5770,6 +5770,14 @@ blockquote::before {
   border-radius: 2rem;
 }
 
+:root {
+  --skill-width : 0%;
+}
+
+.skills__field.custom_width::after {
+  width: var(--skill-width);
+}
+
 .skills__field.width_60::after {
   width: 60%;
 }
