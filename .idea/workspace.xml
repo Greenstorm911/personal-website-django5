@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0674cf29-482c-41b9-91df-e4f4b4e79a85" name="Changes" comment="removing and fixing phone header still need skill to be fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal_website5/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_website5/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index/index-2-rtl.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/inlcudes/head_includes.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/inlcudes/head_includes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index/index-rtl.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index/index-rtl.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,24 +44,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Django Server.personal_website5.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Django Server.personal_website5.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "django.template.preview.state": "SHOW_EDITOR",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\parsa\OneDrive\Desktop\django\personal_website5\templates\index" />
+      <recent name="C:\Users\parsa\OneDrive\Desktop\django\personal_website5\assets\css" />
       <recent name="C:\Users\parsa\OneDrive\Desktop\django\personal_website5\personal_website5" />
       <recent name="C:\Users\parsa\OneDrive\Desktop\django\personal_website5\templates" />
       <recent name="C:\Users\parsa\OneDrive\Desktop\django\personal_website5" />
@@ -125,6 +127,7 @@
       <workItem from="1705077281547" duration="304000" />
       <workItem from="1705078476310" duration="141000" />
       <workItem from="1705175839098" duration="751000" />
+      <workItem from="1705251195563" duration="3759000" />
     </task>
     <task id="LOCAL-00001" summary="before certeficates">
       <option name="closed" value="true" />
@@ -158,7 +161,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705009374199</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="removing and fixing phone header still need skill to be fixed">
+      <option name="closed" value="true" />
+      <created>1705251234576</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705251234576</updated>
+    </task>
+    <task id="LOCAL-00006" summary="removing and fixing phone header still need skill to be fixed">
+      <option name="closed" value="true" />
+      <created>1705251249137</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705251249137</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

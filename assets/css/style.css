@@ -5775,7 +5775,7 @@ blockquote::before {
 }
 
 .skills__field.custom_width::after {
-  width: var(--skill-width);
+  width: var(--skill-width) !important;
 }
 
 .skills__field.width_60::after {

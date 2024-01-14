@@ -435,11 +435,9 @@
                                 <div class="skills__items">
                                     <div class="skills__text">
                                         <span class="skills__name">{{ skill.name }}</span>
-                                        <span class="skills__count width_{{ skill.persent }}">{{ skill.persent }}%</span>
+                                        <span class="skills__count" style="right:calc({{skill.persent}}% - 25px)">{{ skill.persent }}%</span>
                                     </div>
-                                    <div class="skills__field width_{{ skill.persent }}">
-
-                                    </div>
+                                    <div class="skills__field custom_width" style="--skill-width : {{ skill.persent }}%;"></div>
                                 </div>
                             {% endif %}
                         {% endfor %}
@@ -450,11 +448,9 @@
                                 <div class="skills__items">
                                     <div class="skills__text">
                                         <span class="skills__name">{{ skill.name }}</span>
-                                        <span class="skills__count custom_width" style="--skill-width : {{ skill.persent }}%;">{{ skill.persent }}%</span>
+                                        <span class="skills__count" style="right:calc({{skill.persent}}% - 25px)">{{ skill.persent }}%</span>
                                     </div>
-                                    <div class="skills__field width_{{ skill.persent }}">
-
-                                    </div>
+                                    <div class="skills__field custom_width" style="--skill-width : {{ skill.persent }}%;"></div>
                                 </div>
                             {% endif %}
                         {% endfor %}
