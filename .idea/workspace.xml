@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0674cf29-482c-41b9-91df-e4f4b4e79a85" name="Changes" comment="commit error mansour">
+    <list default="true" id="0674cf29-482c-41b9-91df-e4f4b4e79a85" name="Changes" comment="removing and fixing phone header still need skill to be fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/personal_website5/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_website5/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index/index-rtl.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index/index-rtl.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_website5/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_website5/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index/index-2-rtl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/inlcudes/head_includes.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/inlcudes/head_includes.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -114,7 +118,13 @@
       <workItem from="1704963998016" duration="604000" />
       <workItem from="1704993019213" duration="861000" />
       <workItem from="1704996180705" duration="608000" />
-      <workItem from="1705000221873" duration="3155000" />
+      <workItem from="1705000221873" duration="3282000" />
+      <workItem from="1705034740595" duration="361000" />
+      <workItem from="1705045495097" duration="58000" />
+      <workItem from="1705050727959" duration="2103000" />
+      <workItem from="1705077281547" duration="304000" />
+      <workItem from="1705078476310" duration="141000" />
+      <workItem from="1705175839098" duration="751000" />
     </task>
     <task id="LOCAL-00001" summary="before certeficates">
       <option name="closed" value="true" />
@@ -140,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705000312089</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="removing and fixing phone header still need skill to be fixed">
+      <option name="closed" value="true" />
+      <created>1705009374199</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705009374199</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +168,7 @@
     <MESSAGE value="before certeficates" />
     <MESSAGE value="before certeficates1" />
     <MESSAGE value="commit error mansour" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit error mansour" />
+    <MESSAGE value="removing and fixing phone header still need skill to be fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing and fixing phone header still need skill to be fixed" />
   </component>
 </project>
