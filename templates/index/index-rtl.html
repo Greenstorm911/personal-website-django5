@@ -281,7 +281,7 @@
                     </div>
                     <div class="about__thumbnail">
                         <div id="imageContainer" class="about__thumbnail--media position__relative">
-                            <img id="dynamic_image" class="position__relative" src="{{ aboutme.image_dark.url }}" alt="img">
+                            <img id="dynamic_image" class="position__relative" src="{{ aboutme.image_light.url }}" alt="img">
                         </div>
                     </div>
                 </div>
@@ -919,7 +919,7 @@ style="fill:#FFFFFF;">
         function change_image() {
 
             const dynamic_image = document.getElementById("dynamic_image");
-            if (dynamic_image.src.replace("https://parsadev.ir/", "") === "{{ aboutme.image_light.url }}".substr(1)) {
+            if (localStorage.getItem("theme-color") === "light") {
                 dynamic_image.src = "{{ aboutme.image_dark.url }}".substr(1);
             } else {
                 dynamic_image.src = "{{ aboutme.image_light.url }}".substr(1);
