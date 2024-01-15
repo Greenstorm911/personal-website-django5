@@ -7,7 +7,9 @@ class AboutMe(models.Model):
     line4 = models.CharField(max_length=20)
     line5 = models.CharField(max_length=20)
     btn = models.CharField(max_length=15)
-    image = models.ImageField(upload_to='aboutme')
+    image_dark = models.ImageField(upload_to='aboutme')
+    image_light = models.ImageField(upload_to='aboutme' ,null=True, blank=True)
+
 
     def __str__(self):
         return 'about me object'
