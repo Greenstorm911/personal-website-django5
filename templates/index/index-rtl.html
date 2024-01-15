@@ -919,7 +919,7 @@ style="fill:#FFFFFF;">
         function change_image() {
 
             const dynamic_image = document.getElementById("dynamic_image");
-            if (dynamic_image.src.replace("http://parsadev.ir/", "") === "{{ aboutme.image_light.url }}".substr(1)) {
+            if (dynamic_image.src.replace("https://parsadev.ir/", "") === "{{ aboutme.image_light.url }}".substr(1)) {
                 dynamic_image.src = "{{ aboutme.image_dark.url }}".substr(1);
             } else {
                 dynamic_image.src = "{{ aboutme.image_light.url }}".substr(1);
