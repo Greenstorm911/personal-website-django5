@@ -1,7 +1,7 @@
 {% load static %}  
 <meta charset="utf-8">
   <title>Parsa Nazer</title>
-  <meta name="description" content="Morden Bootstrap HTML5 Template">
+  <meta name="description" content="پارسا ناظر">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -22,11 +22,14 @@
   <link rel="stylesheet" href="{% static "/css/rtl.css" %}">
 
   <script>
+      const dynamic_image = document.getElementById("dynamic_image");
     // On page load or when changing themes, best to add inline in `head` to avoid FOUC
     if (localStorage.getItem("theme-color") === "dark" || (!("theme-color" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
-      document.documentElement.classList.add("dark");
+      dynamic_image.src = "{{ aboutme.image_dark.url }}".substr(1);
+        document.documentElement.classList.add("dark");
     }
     if (localStorage.getItem("theme-color") === "light") {
+        dynamic_image.src = "{{ aboutme.image_light.url }}".substr(1);
       document.documentElement.classList.remove("dark");
     }
   </script>
