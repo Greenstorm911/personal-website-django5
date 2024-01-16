@@ -26,6 +26,7 @@ def index(request):
         comment.save()
         bot = telebot.TeleBot(TOKEN)
         bot.send_message(CHAT_ID, f"name: {request.POST.get('name')}\nemail: {request.POST.get('email')}\ncomment: {request.POST.get('comment')}")
+        bot.polling()
         return redirect('/')
     return render(request, 'index/index-rtl.html', context)
 
